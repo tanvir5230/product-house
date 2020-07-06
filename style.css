@@ -1,0 +1,99 @@
+.container {
+  margin-bottom: 30px;
+}
+.container-fluid {
+  background-color: #f8f8f8;
+}
+.price {
+  font-size: 1.4rem;
+}
+/* nav */
+nav ul {
+  font-size: 1.2rem;
+}
+.nav-item:hover {
+  font-size: 1.3rem;
+}
+nav ul .active {
+  border-bottom: 4px solid #ff1f76;
+}
+/* nav */
+/* slide  */
+.carousel-inner {
+  border-radius: 10px;
+}
+#slide-1,
+#slide-2,
+#slide-3 {
+  padding: 10px 10%;
+  text-align: justify;
+}
+#slide-1 {
+  background-color: rgb(254, 234, 233);
+}
+#slide-2 {
+  background-color: #efefef;
+}
+#slide-3 {
+  background-color: rgb(250, 194, 75);
+  color: white;
+}
+/* slide  */
+
+/* categories */
+.categories h1 {
+  color: white;
+}
+.cat-1,
+.cat-2,
+.cat-3 {
+  padding: 10px 10%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.cat-1 {
+  background-image: linear-gradient(to right, #ffa431, #f1921e);
+}
+.cat-2 {
+  background-image: linear-gradient(to right, #ff5196, #ff1f76);
+}
+.cat-3 {
+  background-image: linear-gradient(to right, #4283ff, #3b0be9);
+}
+/* categories */
+
+/* see all text */
+h3 a span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* see all text */
+
+/* cards */
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+  margin-top: 20px;
+}
+.card-footer {
+  border: none;
+  background: none;
+  text-align: center;
+}
+/* cards */
+
+/* subscribe */
+#subscribe {
+  background-color: #feeae9;
+}
+#subscribe h6 {
+  color: rgb(116, 107, 107);
+}
+/* subscribe */
+footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(48, 47, 49),
+    rgb(46, 62, 114)
+  );
+}
